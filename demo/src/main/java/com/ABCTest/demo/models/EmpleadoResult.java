@@ -1,12 +1,16 @@
 package com.ABCTest.demo.models;
 
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
+import org.springframework.data.annotation.*;
 
-import javax.persistence.*;
+
 import java.io.Serializable;
-import java.util.Date;
+
 
 @Data
 @NoArgsConstructor
